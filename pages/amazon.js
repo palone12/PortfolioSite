@@ -27,14 +27,15 @@ const amazon = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was built using React JS and is hosted on netlify. It was
+            build to showcase how website can fast and optimised using react for
+            web development. Than the current version of amazon which is a multi
+            page application and very heavy. Making it slow and providing bad
+            user experience to the people. To Overcome that I tried and
+            implemented tha amazon clone using react with some of main
+            functionalities like cart , payments ,authentication and prodcuts
+            list. The app has the intense use of the redux store to manage data
+            more precisely.
           </p>
           <a
             href="https://github.com/palone12/amazon-clone"
