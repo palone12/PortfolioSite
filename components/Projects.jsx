@@ -1,6 +1,8 @@
 import React from "react";
 import amazon from "../public/projects/amazon.png";
+import cryptoImg from "../public/projects/crypto.png";
 import dupr from "../public/projects/dupr.png";
+import chillax from "../public/projects/chillax.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
@@ -20,19 +22,19 @@ const Projects = () => {
           <ProjectItem
             title="My Dupr"
             backgroundImg={dupr}
-            projectUrl="/crypto"
+            projectUrl="/dupr"
             tech="React JS"
           />
           <ProjectItem
-            title="GPT-3  Open AI"
-            backgroundImg={amazon}
-            projectUrl="/netflix"
-            tech="React JS"
+            title="Cryptoverse"
+            backgroundImg={cryptoImg}
+            projectUrl="/crypto"
+            tech="Next JS"
           />
           <ProjectItem
             title="Chillax Movie App"
-            backgroundImg={amazon}
-            projectUrl="/twitch"
+            backgroundImg={chillax}
+            projectUrl="/chillax"
             tech=" JS"
           />
         </div>

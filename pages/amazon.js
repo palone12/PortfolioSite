@@ -4,7 +4,7 @@ import propertyImg from "../public/projects/amazon.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const property = () => {
+const amazon = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -17,8 +17,8 @@ const property = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">Amazon Clone - React JS </h2>
+          <h3>React JS / Redux / Firebase / Stripe</h3>
         </div>
       </div>
 
@@ -37,14 +37,14 @@ const property = () => {
             properties. This is made possible with Zillow API.
           </p>
           <a
-            href="https://github.com/fireclint/property-finder"
+            href="https://github.com/palone12/amazon-clone"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://property-finder-development.web.app/"
+            href="https://631206536813360c2f82e533--snazzy-nougat-dc02dd.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -59,19 +59,13 @@ const property = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Firebase
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Google API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Zillow API
+                <RiRadioButtonFill className="pr-1" /> Redux
               </p>
             </div>
           </div>
@@ -84,4 +78,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default amazon;

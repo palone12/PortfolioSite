@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
+import chillax from "../public/projects/chillax.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,12 +13,12 @@ const property = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={propertyImg}
+          src={chillax}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">Chiilax - The Movie App</h2>
+          <h3>Javascript / HTML /CSS </h3>
         </div>
       </div>
 
@@ -27,24 +27,20 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This website was build using javascript to make it look like a OTT
+            platform like Netlifx . It is a responsive website with data being
+            fetch from api and applying the js concepts of mappign and filtering
+            data according to categories.
           </p>
           <a
-            href="https://github.com/fireclint/property-finder"
+            href="https://github.com/palone12/Chillax-The-Movie-App"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://property-finder-development.web.app/"
+            href="https://chiilax.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -56,22 +52,13 @@ const property = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Google API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Zillow API
+                <RiRadioButtonFill className="pr-1" /> Movie API
               </p>
             </div>
           </div>
